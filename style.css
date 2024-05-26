@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+nav ul li {
+  background-color: white;
+  list-style: none;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  /*background-color: #dddddd;*/
+}
+
+.right {
+  flex-direction: row;
+}
+
+.search {
+  float: right;
+  padding: 6px;
+  border: solid #c7e9f5;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+header {
+
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+uppercase {
+  text-decoration: uppercase;
+
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+}
